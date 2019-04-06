@@ -1,20 +1,19 @@
 #include<stdio.h>
 
-void rotationFunction(char *array, int n);
+void rotationFunction(char *array);
 
 int main() {
-    int n, i;
     char array[20];
-    printf("Enter message");
-    scanf("%c", &array[]);
-    n=sizeof(array)/sizeof(array[0]);
-    rotationFunction(array, n);
+    printf("Enter message\n");
+    scanf("%c", &array[20]);
+    rotationFunction(array);
     return 0;
 }
 
-void rotationFunction(char *array, int n) {
+void rotationFunction(char *array) {
     int i;
-    for (i=0;i<n;i++) {
+    for (i=0;i!=0;i++) {
         printf("%c", array[i]);
     }
+    
 }
