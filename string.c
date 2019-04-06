@@ -3,8 +3,10 @@
 void rotationFunction(char *array, int n);
 
 int main() {
-    int n;
-    char array[]="abc";
+    int n, i;
+    char array[20];
+    printf("Enter message");
+    scanf("%c", &array[]);
     n=sizeof(array)/sizeof(array[0]);
     rotationFunction(array, n);
     return 0;
